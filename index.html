@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Tugas 1</title>
+    <style>
+    /* INI BACKGROUND GAMBAR  */
+    body{
+            background-color: lightgray;
+            background: url("as.png");
+            background-position: left top;
+            background-size: 1280px 720px;
+        }
+    .gaya {
+            text-align: center;
+            padding: 20px
+        }    
+    /* INI BOOTSTRAP */
+    .container-fluid {
+        height: 100px;
+    }    
+    /* AVATAR BULETAN */
+    #gambarbuletan{
+        border-radius: 50%;
+        width: 250px;
+        height:250px;
+        background: red;
+    }
+    div {color:red};
+    </style>
+</head>
+<body>
+    <center><b><h1>My Super Hero</h1></b></center>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 gaya">
+        <img src="2.jpg" class="img-responsive
+                img-circle center-block">
+        <div class="desc"><h3>Rajiman Masbuloh</h3><h4>Tukang cat tetangga</h4></div>
+        <div> <a href="https://www.twitter.com"><img src="x1.png" width="40px" class="icon"/a>&nbsp;
+            <a href="https://www.facebook.com/"><img src="x2.png" width="30px" class="icon"/a>&nbsp;
+            <a href="https://www.linkedin.com"><img src="x3.jpg" width="30px" class="icon"/a>
+        </div>        
+        </div>
+        <div class="col-xs-4 gaya">
+        <img src="1.jpg" class="img-responsive
+                img-circle center-block">
+        <div class="desc"><h3>Asep Marsuef</h3><h4>Anak gaul kampung sebelah</h4></div>
+        <div><a href="https://www.twitter.com"><img src="x1.png" width="40px" class="icon" /a>&nbsp;
+            <a href="https://www.facebook.com/"><img src="x2.png" width="30px" class="icon" /a>&nbsp;
+            <a href="https://www.linkedin.com"><img src="x3.jpg" width="30px" class="icon" /a>
+        </div>
+        </div>
+        <div class="col-xs-4 gaya">
+        <img src="3.jpg" class="img-responsive
+                img-circle center-block">
+        <div class="desc"><h3>Ahmad Saefulloh</h3><h4>Penjaga onta dan tukang ngangon onta</h4></div>
+        <div><a href="https://www.twitter.com"><img src="x1.png" width="40px" class="icon" /a>&nbsp;
+            <a href="https://www.facebook.com/"><img src="x2.png" width="30px" class="icon" /a>&nbsp;
+            <a href="https://www.linkedin.com"><img src="x3.jpg" width="30px" class="icon" /a>
+        </div>
+        </div>
+    </div>
+    </div> 
+    <div class="row">
+        <div class="col-xs-4 gaya"><img src="4.jpg" class="img-responsive 
+            img-circle center-block">
+            <div class="desc"><h3>Jek</h3><h4>Preman pasar gaib</h4>
+            </div>
+            <div><a href="https://www.twitter.com"><img src="x1.png" width="40px" class="icon" /a>&nbsp;
+                <a href="https://www.facebook.com/"><img src="x2.png" width="30px" class="icon" /a>&nbsp;
+                <a href="https://www.linkedin.com"><img src="x3.jpg" width="30px" class="icon" /a>
+            </div>
+        </div>
+        <div class="col-xs-4 gaya"><img src="5.jpg" class="img-responsive 
+            img-circle center-block">
+            <div class="desc"><h3>Siti Markonah</h3><h4>Bu guru yang sexy</h4>
+            </div>
+            <div><a href="https://www.twitter.com"><img src="x1.png" width="40px" class="icon" /a>&nbsp;
+                <a href="https://www.facebook.com/"><img src="x2.png" width="30px" class="icon" /a>&nbsp;
+                <a href="https://www.linkedin.com"><img src="x3.jpg" width="30px" class="icon" /a>
+            </div>
+        </div>
+        <div class="col-xs-4 gaya"><img src="6.jpg" class="img-responsive 
+            img-circle center-block">
+            <div class="desc"><h3>Bandi</h3><h4>Bukan cewe tulen/bencis thailand</h4>
+            </div>
+            <div><a href="https://www.twitter.com"><img src="x1.png" width="40px" class="icon" /a>&nbsp;
+                <a href="https://www.facebook.com/"><img src="x2.png" width="30px" class="icon" /a>&nbsp;
+                <a href="https://www.linkedin.com"><img src="x3.jpg" width="30px" class="icon" /a>
+            </div>
+        </div>
+        </div>
+        <center><b><h2>Wingadium Leviosa</h2></b></center>
+    <script>
+        // SUPAYA ICON SOSMEDNYA MEMBLUR
+       $('.icon').hover(function(){
+           $(this).fadeTo("fast",0.5);
+       },
+            function(){
+                $(this).fadeTo("fast",1);
+       })
+    </script>   
+</body>
+</html>
